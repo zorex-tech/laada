@@ -11,6 +11,11 @@ contract_id = 'SP3FBR2AGK5H9QBDH3EEN6DF8EK8JY7RX8QJ5SVTE.sip-010-trait-ft-standa
 path = 'contracts/laada-coin.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.laada-lp]
+path = 'contracts/laada-lp.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
