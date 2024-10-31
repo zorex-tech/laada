@@ -16,6 +16,11 @@ epoch = 2.5
 path = 'contracts/laada-lp.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.user-management]
+path = 'contracts/user-management.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
