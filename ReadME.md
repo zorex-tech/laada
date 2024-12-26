@@ -1,7 +1,7 @@
 # Laada
 A decentralized application that allows users to earn rewards for engaging in specific activities on social media platforms like Twitter and Discord. The rewards are managed through smart contracts written in Clarity and deployed on the Stacks blockchain.
 
-## Features
+## 🚀 Features 
 _User Registration_: 
 Users can register using their Stacks wallet address.
 Social Media Integration: 
@@ -10,7 +10,7 @@ _Reward Distribution_:
 Smart contract logic to verify activities and reward users with tokens.
 _User Dashboard_: 
 A web interface to view available campaigns, check rewards, and claim tokens.
-## Tech Stack
+## 💻 Tech Stack
 _Frontend_: Next.js
 _Backend_: Node.js for handling social media API interactions.
 _Blockchain_: Clarity for smart contract development on the Stacks blockchain.
@@ -22,7 +22,7 @@ Node.js and npm installed.
 A Stacks wallet address.
 Twitter Developer account for API access.
 Discord Developer account for webhook setup.
-### Installation
+### 🛠️ Installation
 1. Clone the Repository:
 
 ```shell
