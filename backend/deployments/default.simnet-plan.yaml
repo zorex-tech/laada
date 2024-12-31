@@ -58,6 +58,11 @@ plan:
     - id: 1
       transactions:
         - emulated-contract-publish:
+            contract-name: create-campaign
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/create-campaign.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: laada-coin
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/laada-coin.clar
@@ -66,6 +71,11 @@ plan:
             contract-name: laada-reward-token
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/laada-reward-token.clar
+            clarity-version: 2
+        - emulated-contract-publish:
+            contract-name: reward-vault
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/reward-vault.clar
             clarity-version: 2
         - emulated-contract-publish:
             contract-name: user-management
